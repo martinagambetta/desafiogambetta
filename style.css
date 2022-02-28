@@ -79,6 +79,7 @@ background-color: rgb(210, 247, 248);
     grid-column: 1/5;
     grid-row:12/12;
     background-color: antiquewhite;
+    background-image: radial-gradient();
 
 }
 
@@ -107,3 +108,8 @@ background-color: rgb(210, 247, 248);
     
 }
 
+.img1 {
+    border-style: dashed;
+  background: red;
+  transition: width 2s, height 4s;
+}
